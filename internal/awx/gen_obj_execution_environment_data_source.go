@@ -7,8 +7,8 @@ import (
 	"net/url"
 	p "path"
 
-	c "github.com/ilopezhe/terraform-provider-awx/internal/client"
-	"github.com/ilopezhe/terraform-provider-awx/internal/helpers"
+	c "github.com/ccpgames/terraform-provider-awx/internal/client"
+	"github.com/ccpgames/terraform-provider-awx/internal/helpers"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

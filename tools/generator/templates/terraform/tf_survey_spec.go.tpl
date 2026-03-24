@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	c "github.com/ilopezhe/terraform-provider-awx/internal/client"
-	"github.com/ilopezhe/terraform-provider-awx/internal/helpers"
+	c "github.com/ccpgames/terraform-provider-awx/internal/client"
+	"github.com/ccpgames/terraform-provider-awx/internal/helpers"
 )
 
 var (

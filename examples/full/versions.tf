@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     awx = {
-      source  = "github.com/ilopezhe/awx"
+      source  = "github.com/ccpgames/awx"
       version = "24.6.1"
     }
     time = {

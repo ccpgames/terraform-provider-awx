@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/ilopezhe/terraform-provider-awx/tools/generator/internal"
+	"github.com/ccpgames/terraform-provider-awx/tools/generator/internal"
 	"github.com/spf13/cobra"
 )
 

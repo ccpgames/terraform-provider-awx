@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ilopezhe/terraform-provider-awx/internal/client"
+	"github.com/ccpgames/terraform-provider-awx/internal/client"
 )
 
 func TestNewClientWithTokenAuth(t *testing.T) {

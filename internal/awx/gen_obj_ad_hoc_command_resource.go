@@ -22,8 +22,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 
-	c "github.com/ilopezhe/terraform-provider-awx/internal/client"
-	"github.com/ilopezhe/terraform-provider-awx/internal/hooks"
+	c "github.com/ccpgames/terraform-provider-awx/internal/client"
+	"github.com/ccpgames/terraform-provider-awx/internal/hooks"
 
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/resource"

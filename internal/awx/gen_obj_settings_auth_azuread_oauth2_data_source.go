@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	c "github.com/ilopezhe/terraform-provider-awx/internal/client"
-	"github.com/ilopezhe/terraform-provider-awx/internal/hooks"
+	c "github.com/ccpgames/terraform-provider-awx/internal/client"
+	"github.com/ccpgames/terraform-provider-awx/internal/hooks"
 
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"

@@ -1,4 +1,4 @@
-module github.com/ilopezhe/terraform-provider-awx
+module github.com/ccpgames/terraform-provider-awx
 
 go 1.21
 

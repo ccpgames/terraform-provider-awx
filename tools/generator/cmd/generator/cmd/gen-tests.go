@@ -5,8 +5,8 @@ import (
 	"log"
 	"text/template"
 
-	"github.com/ilopezhe/terraform-provider-awx/tools/generator"
-	"github.com/ilopezhe/terraform-provider-awx/tools/generator/internal"
+	"github.com/ccpgames/terraform-provider-awx/tools/generator"
+	"github.com/ccpgames/terraform-provider-awx/tools/generator/internal"
 	"github.com/spf13/cobra"
 )
 

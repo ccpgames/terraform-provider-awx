@@ -1,5 +1,5 @@
 HOSTNAME ?= github.com
-NAMESPACE ?= ilopezhe
+NAMESPACE ?= ccpgames
 NAME ?= awx
 BINARY ?= ./build/terraform-provider-${NAME}
 VERSION ?= 24.6.1

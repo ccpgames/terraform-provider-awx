@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ilopezhe/terraform-provider-awx/internal/helpers"
+	"github.com/ccpgames/terraform-provider-awx/internal/helpers"
 	"github.com/stretchr/testify/require"
 )
 

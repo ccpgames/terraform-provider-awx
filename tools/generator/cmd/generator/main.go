@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/ilopezhe/terraform-provider-awx/tools/generator/cmd/generator/cmd"
+	"github.com/ccpgames/terraform-provider-awx/tools/generator/cmd/generator/cmd"
 )
 
 func main() {

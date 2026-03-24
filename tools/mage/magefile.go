@@ -11,8 +11,8 @@ import (
 	"github.com/magefile/mage/sh"
 
 	// mage:import
-	"github.com/ilopezhe/terraform-provider-awx/tools/kind"
-	_ "github.com/ilopezhe/terraform-provider-awx/tools/kind"
+	"github.com/ccpgames/terraform-provider-awx/tools/kind"
+	_ "github.com/ccpgames/terraform-provider-awx/tools/kind"
 )
 
 func check(e error) {

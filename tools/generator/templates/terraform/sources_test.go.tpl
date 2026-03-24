@@ -1,7 +1,7 @@
 package {{ .PackageName }}_test
 
 import (
-    "github.com/ilopezhe/terraform-provider-awx/internal/{{ .PackageName }}"
+    "github.com/ccpgames/terraform-provider-awx/internal/{{ .PackageName }}"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

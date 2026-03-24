@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	c "github.com/ilopezhe/terraform-provider-awx/internal/client"
+	c "github.com/ccpgames/terraform-provider-awx/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"

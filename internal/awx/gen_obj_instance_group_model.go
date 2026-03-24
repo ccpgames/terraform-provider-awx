@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
 	"github.com/hashicorp/terraform-plugin-framework/diag"
-	"github.com/ilopezhe/terraform-provider-awx/internal/helpers"
+	"github.com/ccpgames/terraform-provider-awx/internal/helpers"
 )
 
 // instanceGroupTerraformModel maps the schema for InstanceGroup when using Data Source

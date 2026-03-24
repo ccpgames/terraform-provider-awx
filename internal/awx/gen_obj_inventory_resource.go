@@ -148,9 +148,6 @@ func (o *inventoryResource) Schema(ctx context.Context, req resource.SchemaReque
 				Optional:    false,
 				Computed:    true,
 				Sensitive:   false,
-				PlanModifiers: []planmodifier.Bool{
-					boolplanmodifier.UseStateForUnknown(),
-				},
 			},
 			"has_inventory_sources": schema.BoolAttribute{
 				Description: "This field is deprecated and will be removed in a future release. Flag indicating whether this inventory has any external inventory sources.",

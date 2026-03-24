@@ -168,9 +168,6 @@ func (o *inventoryResource) Schema(ctx context.Context, req resource.SchemaReque
 				Optional:    false,
 				Computed:    true,
 				Sensitive:   false,
-				PlanModifiers: []planmodifier.Int64{
-					int64planmodifier.UseStateForUnknown(),
-				},
 			},
 			"id": schema.Int64Attribute{
 				Description: "Database ID for this inventory.",

@@ -8,6 +8,7 @@ import (
 	"net/http"
 	p "path"
 	"strconv"
+	"strings"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
@@ -640,6 +641,13 @@ func (o *jobTemplateResource) Create(ctx context.Context, request resource.Creat
 	// Create a new JobTemplate resource in AWX
 	var data map[string]any
 	if data, err = o.client.Do(ctx, r); err != nil {
+		if strings.Contains(err.Error(), "Playbook not found for project.") {
+			response.Diagnostics.AddWarning(
+				fmt.Sprintf("Skipping JobTemplate on %s: playbook not yet available in project", endpoint),
+				err.Error(),
+			)
+			return
+		}
 		response.Diagnostics.AddError(
 			fmt.Sprintf("Unable to create resource for JobTemplate on %s", endpoint),
 			err.Error(),
